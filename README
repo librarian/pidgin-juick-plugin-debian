@@ -1,0 +1,9 @@
+Добавляем ключ:
+gpg --keyserver keyserver.ubuntu.com --recv-key 4A03040C
+gpg --export 4A03040C | sudo apt-key add -
+Добавляем репозиторий
+echo "deb http://deb.libc6.org/ lenny main" | sudo tee -a /etc/apt/sources.list
+Обновляем список пакетов:
+sudo aptitude update
+Устанавливаем:
+sudo aptitude install pidgin-juick-plugin
