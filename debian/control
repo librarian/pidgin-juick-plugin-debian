@@ -1,0 +1,14 @@
+Source: pidgin-juick-plugin
+Section: net
+Priority: optional
+Maintainer:pkftag <pkftag@gmail.com>, Nikita A Menkovich <menkovich@gmail.com>
+Uploaders: Nikita A Menkovich <menkovich@gmail.com>
+Build-Depends: debhelper (>= 7), pidgin-dev, libpurple-dev
+Standards-Version: 3.7.3
+Homepage: http://github.com/mad/pidgin-juick-plugin/
+
+Package: pidgin-juick-plugin
+Architecture: i386
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Adds some color and button for juick bot.
+ Adds some color and button for juick bot.
